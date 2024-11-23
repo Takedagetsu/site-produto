@@ -1,0 +1,51 @@
+/* Media Queries para Responsividade */
+@media (max-width: 768px) {
+    .logo {
+        font-size: 60px; /* Reduz o tamanho da fonte do logo em telas menores */
+    }
+
+    header {
+        flex-direction: column; /* Alinha itens em coluna em telas pequenas */
+        align-items: flex-start; /* Alinha itens à esquerda */
+    }
+
+    nav {
+        margin-top: 10px; /* Adiciona espaço entre o logo e a navegação */
+    }
+
+    .hero h1 {
+        font-size: 28px; /* Reduz o tamanho do título na seção hero */
+    }
+
+    .hero p {
+        font-size: 18px; /* Reduz o tamanho do parágrafo na seção hero */
+    }
+
+    .btn {
+        font-size: 16px; /* Reduz o tamanho do botão */
+        padding: 10px 20px; /* Ajusta o preenchimento do botão */
+    }
+
+    .banner {
+        width: 100%; /* Ajusta a largura do banner */
+        height: auto; /* Permite que a altura do banner se ajuste automaticamente */
+    }
+}
+
+@media (max-width: 480px) {
+    .hero {
+        padding: 30px 10px; /* Reduz o preenchimento na seção hero */
+    }
+
+    .hero h1 {
+        font-size: 24px; /* Reduz ainda mais o tamanho do título */
+    }
+
+    .hero p {
+        font-size: 16px; /* Reduz o tamanho do parágrafo */
+    }
+
+    .btn {
+        padding: 10px 15px; /* Ajusta o preenchimento do botão */
+    }
+}

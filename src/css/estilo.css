@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box; /* Inclui padding e border no cálculo da largura e altura */
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    line-height: 1.6;
+    background: rgb(118,0,196);
+    background: linear-gradient(142deg, rgba(118,0,196,1) 0%, rgba(0,0,0,0.9920343137254902) 55%, rgba(84,69,252,1) 100%);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(118,0,196);
+background: linear-gradient(142deg, rgba(118,0,196,1) 0%, rgba(0,0,0,0.9920343137254902) 55%, rgba(84,69,252,1) 100%);
+    padding: 20px 40px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    
+}
+
+.logo {
+    font-family: 'gstatic';
+    font-size: 100px;
+    font-weight: bold;
+    color: #ffffff; /* Preto */
+    
+        font-family: "Ga Maamli", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+   
+      
+}
+
+nav a {
+    color: #0c0296;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #0c0296; /* Azul ao passar o mouse */
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(89vh - 170px); /* Altura ajustada para deixar espaço para o footer */
+    text-align: center;
+    padding: 20px;
+}
+
+.hero {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 50px 20px;
+    border-radius: 15px;
+    margin: 20px 0;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s;
+    text-align: center;
+}
+
+.hero:hover {
+    transform: scale(1.02); /* Efeito de leve aumento ao passar o mouse */
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    
+    background: radial-gradient(circle, rgba(126,92,230,1) 0%, rgba(148,181,233,1) 91%);
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn:hover {
+    background-color: #411369; /* Roxo mais escuro ao passar o mouse */
+    transform: translateY(-2px); /* Efeito de elevação ao passar o mouse */
+}
+
+
+h2 {
+    border-bottom: 2px solid #ffc107;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+
+footer {
+    text-align: center;
+    padding: 2px 0;
+    background: rgb(118,0,196);
+background: linear-gradient(142deg, rgba(118,0,196,1) 0%, rgba(0,0,0,0.9920343137254902) 55%, rgba(84,69,252,1) 100%);
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.3)
+    
+    }
+
+    
+    
+    
+ /* adicionar banner */
+    .banner {
+        width: 110%;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 10px;
+        text-align: justify;
+    }
+    

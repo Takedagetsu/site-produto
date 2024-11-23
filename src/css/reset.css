@@ -1,0 +1,58 @@
+/* Reset CSS */
+html, body, div, h1, h2, h3, h4, h5, h6, p, a, ul, li, img, table, caption, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ul {
+    list-style: none; /* Remove marcadores de listas */
+}
+
+img {
+    max-width: 100%; /* Garante que as imagens não excedam a largura do contêiner */
+    height: auto; /* Mantém a proporção das imagens */
+}
+
+table {
+    border-collapse: collapse; /* Remove espaçamento entre células da tabela */
+    width: 100%; /* Tabelas ocupam 100% da largura do contêiner */
+}
+
+caption {
+    font-weight: bold; /* Títulos de tabelas em negrito */
+}
+
+th {
+    text-align: left; /* Alinha o texto das células de cabeçalho à esquerda */
+}
+
+a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: inherit; /* Herda a cor do texto pai */
+}
+
+button {
+    background: none; /* Remove o fundo padrão de botões */
+    border: none; /* Remove a borda padrão de botões */
+    padding: 0; /* Remove o preenchimento padrão de botões */
+    font-family: inherit; /* Usa a mesma fonte que o pai */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+}
+
+input, textarea {
+    font-family: inherit; /* Usa a mesma fonte que o pai */
+    font-size: inherit; /* Usa o mesmo tamanho de fonte que o pai */
+    border: none; /* Remove a borda padrão de campos de entrada */
+    outline: none; /* Remove o contorno padrão ao focar */
+}
+
+button:focus, input:focus, textarea:focus {
+    outline: none; /* Remove o contorno padrão ao focar */
+}

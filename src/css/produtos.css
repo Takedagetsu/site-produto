@@ -1,0 +1,164 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    background: rgb(118,0,196);
+    background: linear-gradient(142deg, rgba(118,0,196,1) 0%, rgba(0,0,0,0.9920343137254902) 55%, rgba(84,69,252,1) 100%);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    line-height: 1.6;
+    
+}
+
+header {
+    background: rgb(118,0,196);
+background: linear-gradient(142deg, rgba(118,0,196,1) 0%, rgba(0,0,0,0.9920343137254902) 55%, rgba(84,69,252,1) 100%);
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+#produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.produto {
+    
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.produto:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+}
+
+.imagem-produto {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.nome-produto {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.descricao {
+    font-size: 14px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.preco {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(255, 0, 0, 0.8);; /* Cor vermelho-chamativa */
+}
+
+.adicionar-carrinho {
+    background: radial-gradient(circle, rgba(126,92,230,1) 0%, rgba(148,181,233,1) 91%);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.adicionar-carrinho:hover {
+    background: #411369; /* Cor roxo */
+
+}
+
+
+
+#imagem-detalhe {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+
+
+#voltar {
+    background: rgba(0, 123, 255, 0.8); /* Cor azul-chamativa */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#voltar:hover {
+    background: rgba(0, 123, 255, 0.8); /* Cor azul */
+}
+
+.btn {
+    background: radial-gradient(circle, rgba(126,92,230,1) 0%, rgba(148,181,233,1) 91%); /* degrade */
+    color: white;
+    padding: 15px 30px;
+    text-align: justify;
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: 18px;
+    transition: background-color 0.3s, transform 0.3s;
+    display: inline-block; /* Para garantir que o botão tenha um comportamento de bloco */
+    margin-top: 10px; /* Espaçamento entre o texto e o botão */
+}
+
+.btn:hover {
+    background-color:#411369; /* roxo mais escuro ao passar o mouse */
+    transform: translateY(-2px); /* Efeito de elevação ao passar o mouse */
+}
+
+footer {
+    text-align: center;
+    padding: 2px 0;
+    background: linear-gradient(142deg, rgba(118,0,196,1) 0%, rgba(0,0,0,0.9920343137254902) 55%, rgba(84,69,252,1) 100%);
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.3)
+    
+    }
+   
+    
+    main {
+        
+        height: calc( 0 - 170px); /* Altura ajustada para deixar espaço para o footer */
+        
+    }
+
+
+    .banner {
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+        border-radius: 10px;
+        text-align: center;
+    }
+    nav a {
+        color: #0c0296;
+        margin: 50px 50px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.3s;
+    }
+
+    
+nav a:hover {
+    color: #0c0296; /* Azul ao passar o mouse */
+}

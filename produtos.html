@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos</title>
+    <link rel="stylesheet" href="./src/css/produtos.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+    <title>Página Inicial</title>
+</head>
+<body>
+    <header>
+        
+        <h1>Produtos</h1>
+        <img class="banner" src="./src/imagens/banner.png" alt="">
+        <nav>
+            <a href="./index.html" class="btn">Página Inicial</a> <!-- Botão da pagina inicial -->
+
+        <a href="./carrinho.html" class="btn">Carrinho</a> <!-- Botão do carrinho -->
+    </header>
+    <main>
+        <section id="produtos">
+            <div class="produto" data-id="1">
+                <img src="./src/imagens/1.png" alt="Produto 1" class="imagem-produto">
+                <h2 class="nome-produto">Produto 1</h2>
+                <p class="descricao">Uma breve descrição do Produto 1. Este produto é ótimo para suas necessidades.</p>
+                <p class="preco">R$ 100,00</p>
+                <button class="adicionar-carrinho">Adicionar ao Carrinho</button>
+            </div>
+            <div class="produto" data-id="2">
+                <img src="./src/imagens/3.jpeg" alt="Produto 2" class="imagem-produto">
+                <h2 class="nome-produto">Produto 2</h2>
+                <p class="descricao">Uma breve descrição do Produto 2. Este produto é ideal para quem busca qualidade.</p>
+                <p class="preco">R$ 150,00</p>
+                <button class="adicionar-carrinho">Adicionar ao Carrinho</button>
+            </div>
+            <div class="produto" data-id="3">
+                <img src="https://via.placeholder.com/150" alt="Produto 3" class="imagem-produto">
+                <h2 class="nome-produto">Produto 3</h2>
+                <p class="descricao">Uma breve descrição do Produto 3. Perfeito para uso diário.</p>
+                <p class="preco">R$ 200,00</p>
+                <button class="adicionar-carrinho">Adicionar ao Carrinho</button>
+            </div>
+            <div class="produto" data-id="4">
+                <img src="https://via.placeholder.com/150" alt="Produto 4" class="imagem-produto">
+                <h2 class="nome-produto">Produto 4</h2>
+                <p class="descricao">Uma breve descrição do Produto 4. Um produto que você não pode perder.</p>
+                <p class="preco">R$ 250,00</p>
+                <button class="adicionar-carrinho">Adicionar ao Carrinho</button>
+            </div>
+            <!-- Adicione mais produtos conforme necessário -->
+        </section>
+        <section id="detalhes-produto" style="display:none;">
+            <h2>Detalhes do Produto</h2>
+            <img id="imagem-detalhe" src="" alt="Imagem do Produto" class="imagem-produto">
+            <p id="descricao-produto"></p>
+            <p id="preco-produto"></p>
+            <button id="voltar">Voltar</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Loja de Produtos</p>
+    </footer>
+    <script src="./src/js/script.js"></script>
+</body>
+</html>
